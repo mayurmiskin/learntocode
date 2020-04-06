@@ -1,7 +1,6 @@
 import random
 comp=random.randint(1,3)
 User=int(input("Select your option: 1: Rock, 2: Paper, 3: Scissors\n"))
-i=3
 while User>3:
       print("You have selected a wrong option")
       User=int(input("Select your option: 1: Rock, 2: Paper, 3: Scissors\n"))
@@ -15,13 +14,13 @@ elif a==1:
     if User==3:
      print("You: Sciccors vs Comp: Paper\nYou Win :)")
     if User==2:
-      print("You: Paper vs Comp: Rock\You Win :)")
+      print("You: Paper vs Comp: Rock\nYou Win :)")
 elif a==2:
-     print("You: Scissors vs Comp: Rock\You Lose :(")
+     print("You: Scissors vs Comp: Rock\nYou Lose :(")
 elif a==-1:
     if User==1:
-      print("You: Rock vs Comp: Paper\You Lose :(")
+      print("You: Rock vs Comp: Paper\nYou Lose :(")
     if User==2:
-        print("You: Paper vs Comp: Scissors\You Lose :(")
+        print("You: Paper vs Comp: Scissors\nYou Lose :(")
 elif a==-2:
-    print("You: Rock vs Comp: Scissors\You win :)")
+    print("You: Rock vs Comp: Scissors\nYou win :)")
